@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/context"
-	"github.com/rancher/go-rancher/client"
+	"github.com/fedetorre/go-rancher/client"
 )
 
 type key int

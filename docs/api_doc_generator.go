@@ -12,7 +12,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/rancher/go-rancher/client"
+	"github.com/fedetorre/go-rancher/client"
 )
 
 var (

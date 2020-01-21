@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/rancher/go-rancher/client"
+	"github.com/fedetorre/go-rancher/client"
 )
 
 const (

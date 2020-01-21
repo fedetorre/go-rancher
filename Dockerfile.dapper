@@ -19,7 +19,7 @@ RUN wget -O - ${!DOCKER_URL} > /usr/bin/docker && chmod +x /usr/bin/docker
 RUN wget -O - https://storage.googleapis.com/golang/go1.11.1.linux-${!GOLANG_ARCH}.tar.gz | tar -xzf - -C /usr/local && \
     go get github.com/rancher/trash && go get golang.org/x/lint/golint
 
-ENV DAPPER_SOURCE /go/src/github.com/rancher/go-rancher/
+ENV DAPPER_SOURCE /go/src/github.com/fedetorre/go-rancher/
 ENV DAPPER_OUTPUT ./bin
 ENV DAPPER_DOCKER_SOCKET true
 ENV TRASH_CACHE ${DAPPER_SOURCE}/.trash-cache

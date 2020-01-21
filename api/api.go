@@ -5,8 +5,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/rancher/go-rancher/client"
-	v2client "github.com/rancher/go-rancher/v2"
+	"github.com/fedetorre/go-rancher/client"
+	v2client "github.com/fedetorre/go-rancher/v2"
 )
 
 func toMap(obj interface{}) (map[string]interface{}, error) {
