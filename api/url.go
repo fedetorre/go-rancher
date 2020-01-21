@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/rancher/go-rancher/client"
+	"github.com/fedetorre/go-rancher/client"
 )
 
 const (

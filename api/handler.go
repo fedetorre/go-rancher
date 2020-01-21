@@ -6,7 +6,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"
-	"github.com/rancher/go-rancher/client"
+	"github.com/fedetorre/go-rancher/client"
 )
 
 func ApiHandlerFunc(schemas *client.Schemas, f http.HandlerFunc) http.HandlerFunc {

@@ -6,7 +6,7 @@ import (
 	"reflect"
 
 	"github.com/sirupsen/logrus"
-	"github.com/rancher/go-rancher/client"
+	"github.com/fedetorre/go-rancher/client"
 )
 
 func toMap(obj interface{}) (map[string]interface{}, error) {
